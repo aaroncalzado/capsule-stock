@@ -1,2 +1,2 @@
 # capsule-stock
-Marketing website.
+Marketing website for CapsuleStock.com.
