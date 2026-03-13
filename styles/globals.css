@@ -266,6 +266,7 @@ html {
   overflow: hidden;
   cursor: pointer;
   position: relative;
+  border-radius: 2rem;
 }
 
 .location-card-image-container {
