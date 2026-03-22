@@ -1,0 +1,13 @@
+title: "Capsule Stock"
+description: "Modern vending machines for Seattle properties. Zero cost, zero maintenance."
+url: "https://capsulestock.com"
+theme: minima
+
+exclude:
+  - package.json
+  - package-lock.json
+  - README.md
+  - CONTEXT.md
+  - Gemfile
+  - Gemfile.lock
+  - .ruby-version

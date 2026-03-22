@@ -1,9 +1,26 @@
----
-layout: default
-title: "Capsule Stock - Modern Vending for Seattle Properties"
----
-
-<!-- Header -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Capsule Stock - Modern Vending for Seattle Properties</title>
+  <meta name="description" content="Modern vending machines for Seattle properties. Zero cost, zero maintenance.">
+  <link href="https://fonts.cdnfonts.com/css/satoshi" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com?plugins=forms"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Satoshi', 'sans-serif'],
+          },
+        }
+      }
+    }
+  </script>
+</head>
+<body class="min-h-screen bg-white font-sans antialiased">
+  <!-- Header -->
 <header class="absolute top-0 left-0 right-0 z-10">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
     <h2 class="text-white font-bold text-xl tracking-tight">Capsule Stock</h2>
@@ -410,3 +427,6 @@ title: "Capsule Stock - Modern Vending for Seattle Properties"
     </div>
   </div>
 </footer>
+
+</body>
+</html>
